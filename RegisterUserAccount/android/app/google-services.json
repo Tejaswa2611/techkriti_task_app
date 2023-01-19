@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "741826828259",
+    "project_id": "mitch-login",
+    "storage_bucket": "mitch-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741826828259:android:dad4f17587dc88328ff2d6",
+        "android_client_info": {
+          "package_name": "com.example.modernlogintute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741826828259-mhgb0qmisjrn74vms0okueo0c67raanu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn_btJ38n6AqbzP0fImBXOLg_w978MVwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741826828259-mhgb0qmisjrn74vms0okueo0c67raanu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
