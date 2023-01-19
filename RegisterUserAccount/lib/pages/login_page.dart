@@ -75,11 +75,26 @@ class _LoginPageState extends State<LoginPage> {
               children: [
                 const SizedBox(height: 50),
 
-                // logo
-                const Icon(
-                  Icons.lock,
-                  size: 100,
+                //techkriti logo
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(12),
+                  child: Container(height: 150,
+                  color: Colors.grey[300],
+                  padding: const EdgeInsets.all(20),
+                  child: Image.asset ('lib/images/Techkriti_logo.png'),
+                  ),
                 ),
+                // logo
+                // const Icon(
+                //   Icons.lock,
+                //   size: 100,
+                // ),
+                // Row(
+                //  mainAxisAlignment: MainAxisAlignment.center,
+                //  children: const [
+                    // techkriti logo
+                    //SquareTile(imagePath: 'lib/images/Techkriti_logo.png'),]
+                // ),
 
                 const SizedBox(height: 50),
 
@@ -112,19 +127,19 @@ class _LoginPageState extends State<LoginPage> {
 
                 const SizedBox(height: 10),
 
-                // forgot password?
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 25.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    children: [
-                      Text(
-                        'Forgot Password?',
-                        style: TextStyle(color: Colors.grey[600]),
-                      ),
-                    ],
-                  ),
-                ),
+                // // forgot password?
+                // Padding(
+                //   padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                //   child: Row(
+                //     mainAxisAlignment: MainAxisAlignment.end,
+                //     children: [
+                //       Text(
+                //         'Forgot Password?',
+                //         style: TextStyle(color: Colors.grey[600]),
+                //       ),
+                //     ],
+                //   ),
+                // ),
 
                 const SizedBox(height: 25),
 
@@ -147,13 +162,13 @@ class _LoginPageState extends State<LoginPage> {
                           color: Colors.grey[400],
                         ),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 10.0),
-                        child: Text(
-                          'Or continue with',
-                          style: TextStyle(color: Colors.grey[700]),
-                        ),
-                      ),
+                     // Padding(
+                      //   padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                      //   child: Text(
+                      //     'Or continue with',
+                      //     style: TextStyle(color: Colors.grey[700]),
+                      //   ),
+                      // ),
                       Expanded(
                         child: Divider(
                           thickness: 0.5,
@@ -167,18 +182,18 @@ class _LoginPageState extends State<LoginPage> {
                 const SizedBox(height: 50),
 
                 // google + apple sign in buttons
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
-                    // google button
-                    SquareTile(imagePath: 'lib/images/google.png'),
+                // Row(
+                //   mainAxisAlignment: MainAxisAlignment.center,
+                //   children: const [
+                //     // google button
+                //     SquareTile(imagePath: 'lib/images/google.png'),
 
-                    SizedBox(width: 25),
+                //     SizedBox(width: 25),
 
-                    // apple button
-                    SquareTile(imagePath: 'lib/images/apple.png')
-                  ],
-                ),
+                //     // apple button
+                //     SquareTile(imagePath: 'lib/images/apple.png')
+                //   ],
+                // ),
 
                 const SizedBox(height: 50),
 
